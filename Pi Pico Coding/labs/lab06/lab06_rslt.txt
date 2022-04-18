@@ -1,0 +1,27 @@
+
+Results from Sequential Run
+
+Time for taken for float calculations: 381646 microseconds
+Time taken for double calculations: 760042 microseconds
+Total Time: 1141789 microseconds
+
+-------------------------------------------------------------
+			
+Results from Parallel Run			
+
+Time for taken for float calculations: 399115 microseconds
+Time taken for double calculations: 776618 microseconds
+Total Time: 776623 microseconds
+
+-------------------------------------------------------------
+
+Observations:
+
+For the sequential run
+Total Time = Time for Float + Time for Double (approximately)
+The minimal difference is due to the time required in moving between instructions
+
+For the parallel run
+Total Time = max{Time for Float, Time for Double} (approximately)
+The total time was equal to the time for whichever function ran for longer
+I switched the cores in which either function was running to find this result

@@ -1,0 +1,42 @@
+--------------------------------------------------Results with XIP Cache Disabled--------------------------------------------------
+
+----------------Results from Sequential Run----------------
+Time for taken for float calculations: 3668326 microseconds
+Time taken for double calculations: 4359295 microseconds
+Total Time: 8029913 microseconds
+----------------Results from Sequential Run----------------
+
+----------------Results from Parallel Run----------------
+Time for taken for float calculations: 6584453 microseconds
+Time taken for double calculations: 7255678 microseconds
+Total Time: 7255710 microseconds
+----------------Results from Parallel Run----------------
+
+--------------------------------------------------Results with XIP Cache Disabled--------------------------------------------------
+
+
+
+--------------------------------------------------Results with XIP Cache Enabled--------------------------------------------------
+
+----------------Results from Sequential Run----------------
+Time for taken for float calculations: 381645 microseconds
+Time taken for double calculations: 760041 microseconds
+Total Time: 1144207 microseconds
+----------------Results from Sequential Run----------------
+
+----------------Results from Parallel Run----------------
+Time for taken for float calculations: 399118 microseconds
+Time taken for double calculations: 776617 microseconds
+Total Time: 776622 microseconds
+----------------Results from Parallel Run----------------
+
+--------------------------------------------------Results with XIP Cache Enabled--------------------------------------------------
+
+--------------------------------------------------Interesting Observations--------------------------------------------------
+
+Observations from lab06 remain true for this lab as well
+Running without cache has a significant increase in the time required to complete the run
+ - Sequential Run execution time is almost 8 times larger with cache disabled
+ - Parallel Run execution time is almost 10 times larger with cache disabled
+
+--------------------------------------------------Interesting Observations--------------------------------------------------

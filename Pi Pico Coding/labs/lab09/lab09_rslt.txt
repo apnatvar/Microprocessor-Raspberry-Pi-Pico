@@ -1,0 +1,5 @@
+Hexadecimal 	- rawADC Value 	- Temp Computed	- Temp Computed by Hand
+0x38f 	  	- 911 		- 16.00 Celcius - 13.28 Celcius
+0x386 	  	- 902 		- 18.00 Celcius	- 17.47 Celcius
+0x38A 		- 906 		- 15.40 Celcius	- 15.60 Celcius
+0x37E 		- 893 		- 19.80 Celcius	- 21.65 Celcius
