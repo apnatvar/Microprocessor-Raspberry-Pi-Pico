@@ -21,4 +21,5 @@ The "Labs" folder contains all the codes that I had to submit on a weekly basis.
 This is one of the major step ups in the code. I wrote about 200 lines of arm I think. It uses an Alarm Interrupt to blink an LED. It catches button using GPIO interrupts to increase/decrease speed of the blinking of the onboard LED or to simply pause and resume blinking. It also displays appropriate message using c wrapper classes, you can view it using a PuTTy console. 
 
 ### Assignment 2 
-Coming soon... 
+Group Assignment, paired randomly with other Trinity College Dublin Students. 
+We designed a Morse Code game which could recognise, dots, dashes and spaces in a morse code and check if the input code is correct. The entire .S file (Assembly Code) was written solely by me, while also contributing towards the .c (C Langauge) code. You can choose a level of difficulty as needed, with 4 levels to choose from. You can enter letters or words depending on your choice. More is explained in the relevant folder README.md
